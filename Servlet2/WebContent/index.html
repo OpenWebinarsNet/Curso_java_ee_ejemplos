@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Servlet2</title>
+</head>
+<body>
+		<h1>Envío GET!!!</h1>
+		<a href="ParametrosGET?id=10&nombre=usuario">Link ID 10</a>
+		<br>
+		<a href="ParametrosGET?id=11&nombre=usuario">Link ID 11</a>
+		<br>
+		
+		<br>
+		<h1>Envío POST!!!</h1>
+		<div id="body">
+		<form name="contac_form" method="post" action="ParametrosPOST">
+				Nombre: <input type="text" name="nombre" /><br /> 
+				Identificador: <input type="text" name="id" /><br /> 
+				<input type="submit" name"submit" value="Enviar">
+		</form>
+		</div>
+		<br>
+		
+		<br>
+		<h1>GET HTML!!!</h1>
+		<a href="getHTML">Respuesta HTML estático</a>
+		<br>
+		
+		<br>
+		<h1>GET DYNAMIC HTML!!!</h1>
+		<a href="getDynamicHTML">Respuesta HTML dinámica</a>
+		<br>
+</body>
+</html>
